@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+  "_name_or_path": "distilbert/distilbert-base-uncased",
   "activation": "gelu",
   "architectures": [
     "DistilBertForSequenceClassification"
@@ -7,7 +7,6 @@
   "attention_dropout": 0.1,
   "dim": 768,
   "dropout": 0.1,
-  "finetuning_task": "sst-2",
   "hidden_dim": 3072,
   "id2label": {
     "0": "(Vertigo) Paroymsal  Positional Vertigo",
@@ -2182,7 +2181,6 @@
   "model_type": "distilbert",
   "n_heads": 12,
   "n_layers": 6,
-  "output_past": true,
   "pad_token_id": 0,
   "problem_type": "single_label_classification",
   "qa_dropout": 0.1,
@@ -2190,6 +2188,6 @@
   "sinusoidal_pos_embds": false,
   "tie_weights_": true,
   "torch_dtype": "float32",
-  "transformers_version": "4.47.0",
+  "transformers_version": "4.47.1",
   "vocab_size": 30522
 }
