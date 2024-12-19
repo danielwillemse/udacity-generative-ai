@@ -1,5 +1,5 @@
 ---
-base_model: distilbert/distilbert-base-uncased-finetuned-sst-2-english
+base_model: distilbert/distilbert-base-uncased
 library_name: peft
 ---
 
